@@ -1,0 +1,145 @@
+body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #040404;
+  }
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+.about-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    text-align: justify;
+  }
+  #about ul{
+    list-style-type: square
+  }
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+.project {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    border-color: #dfdada;
+    border-style: outset;
+  }
+  .project1 {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    border-color: #dfdada;
+    border-style: inset;
+  }
+.project2 {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    border-color: #dfdada;
+    border-style: outset;
+ }
+.project3 {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    border-color: #dfdada;
+    border-style: inset;
+  }
+.project img {
+    width: 100%;
+  }
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#logo{
+    text-decoration-style: dashed;
+    text-decoration-color: #fffbfb;
+    color: #fff;
+    
+}
+  #navbar {
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: #040404;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: 33%;
+    text-align: center;
+    background: radial-gradient(#eda514, #000000 83%);
+    background-blend-mode: color-dodge;
+    cursor: pointer;
+  }
+  
+  #navbar ul {
+    margin: auto;
+    padding: 1px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+  }
+  
+  #navbar li {
+    position: relative;
+    display: inline;
+  }
+  
+  #navbar>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 30px;
+  }
+  
+  #navbar a,
+  #navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 0;
+    white-space: nowrap;
+    transition: 0.9s;
+    letter-spacing: 0.8px;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+  }  
+  #button{
+  border-width: 0px;
+  display:flex;
+  margin: 0;
+  cursor:grab
+  }
+  #connect {
+ border: 3px inset;
+ margin: auto;
+ width: auto;
+ padding: 10px;
+ background-color: rgb(255, 250, 250);
+ background-color: blur(10%);
+  }
+  #socialmedia {
+margin: auto;
+ width: 10%;
+ padding: 30px;
+ margin-left: 320px;
+  }
+  #contact {
+    text-align: center;
+    margin-top: auto;
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
